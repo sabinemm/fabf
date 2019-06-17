@@ -1,15 +1,8 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+** Hi, welcome to "FOR A BETTER FUTURE" **
+
+It is built to be a website for a company that is starting out with their solar panel business. 
 
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-# fabf
+Website built with Bootstrap and the great help of auntie Google.
+For the visuals I've taken inspiration from Wix website builder, to keep it nice and simple.
+Mockup built with Photoshop.
