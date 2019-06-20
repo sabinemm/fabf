@@ -176,7 +176,7 @@ z-index: -1;
 /*-------------------SECTION 3 PAGE 1------------------*/
 
 #idea {
-    background-color: rgb(242, 249,252);
+    background-color: rgb(242, 249, 252);
      padding-bottom: 70px;
 }
 
@@ -185,12 +185,10 @@ z-index: -1;
     margin-top: 100px;
 }
 
-
 .stitlen {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-
 
 /*-------------------SECTION 4 PAGE 1------------------*/
 
@@ -208,6 +206,64 @@ z-index: -1;
     padding-bottom: 30px;
 }
 
+/*-------------------FOOTER SUBSCRIPTION BOX------------------*/
+
+.home-newsletter {
+padding: 80px 0;
+background: #0D172A;
+}
+
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; 
+font-family: 'SourceSansProRegular';
+}
+
+.home-newsletter .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; 
+    
+}
+
+.home-newsletter .single .form-control {
+height: 50px;
+background: rgba(255, 255, 255, 0.6);
+border-color: transparent;
+border-radius: 20px 0 0 20px; 
+    
+}
+
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; 
+    
+}
+
+.home-newsletter .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: rgb(112, 192, 214);
+color: #fff;
+}
 
 
-/*-------------------FOOTER------------------*/
+/*-------------------FOOTER SOCIAL------------------*/
+
+
+.footer-item {
+    display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    padding-left: 7px;
+    padding-right: 7px;
+}
