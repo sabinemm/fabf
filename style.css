@@ -177,6 +177,7 @@ z-index: -1;
 
 #idea {
     background-color: rgb(242, 249,252);
+     padding-bottom: 70px;
 }
 
 .idea-title {;
@@ -184,3 +185,8 @@ z-index: -1;
     margin-top: 100px;
 }
 
+
+.stitlen {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
