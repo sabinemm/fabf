@@ -25,16 +25,16 @@
 .btn-transp-white-border:active:focus,
 .btn-transp-white-border:focus {
     background-color: rgba(0, 0, 0, 0);
-    border: solid 3px white !important;
-    border-radius: 30px !important;
-    color: white;
+    border: solid 3px white;
+    border-radius: 30px;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px !important;
+    font-size: 20px;
     font-family: 'SourceSansProRegular';
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 
@@ -46,22 +46,22 @@
 
 
 .btn-blue-border,
-.btn-blue-border:hover,
 .btn-blue-border:active,
 .btn-blue-border:visited,
 .btn-blue-border:active:focus,
 .btn-blue-border:focus {
-    background-color: rgba(0, 0, 0, 0) !important;
-    border: solid 3px rgb(112, 192, 214) !important;
-    border-radius: 30px !important;
-    color: black !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 3px rgb(112, 192, 214);
+    border-radius: 30px;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px !important;
+    font-size: 20px;
     font-family: 'SourceSansProRegular';
-    padding-left: 25px !important;
-    padding-right: 25px!important;
+    padding-left: 25px;
+    padding-right: 25px;
+    
 }
 
 .btn-blue-border:hover {
@@ -74,7 +74,7 @@
 /*-------------------SECTION 1 PAGE 1------------------*/
 
 #parallax {
-    background: url(img/1page1section.jpg);
+    background: url(./assets/img/1page1section.jpg);
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
