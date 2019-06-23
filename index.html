@@ -6,204 +6,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/roundo" type="text/css" />
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/source-sans-pro" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-  
+
     <title>FOR A BETTER FUTURE</title>
 </head>
 
 <body>
 
     <!–-----– NAVBAR ------->
+        <div class="parallax-wrap">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="./assets/img/logopng.png" height="50px" alt="logo"
+                        class="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="container">
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-              <img src="./assets/img/logo.svg" height="50px"alt="logo" class="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="#">About<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Concept</a>
+                            <a class="nav-link" href="#idea">Concept</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
                         </li>
                     </ul>
-                    <span class="navbar-text">
-                          <button type="button" class="btn btn-blue-border">CONTACT</button>
-                    </span>
-            </div>
-        </nav>
-    </div>
+                    <button type="button" class="btn-blue-border">CONTACT</button>
+                </div>
+            </nav>
 
-    <!–-----– FIRST SECTION ------->
+            <!–-----– FIRST SECTION ------->
 
-    <section id="parallax">
-        <div class="container">
-            <div class="ltitle text-center">
-                <p class="uppercase stitle">WELCOME TO A BETTER FUTURE</p>
-                <h2> Where we can make your dreams <br> of sustainability become a reality </h2>
-                <p class="tparagraph"> We can create your perfect off-grid sanctuary, power your summer home or help you <br> save on energy expenses in the long run</p>
-                <button type="button" class="btn-transp-white-border">GO SOLAR</button>
-            </div>
+                <div class="container">
+                    <div class="ltitle text-center">
+                        <p class="uppercase stitle">WELCOME TO A BETTER FUTURE</p>
+                        <h2> Where we can make your dreams <br> of sustainability become a reality </h2>
+                        <p class="tparagraph"> We can create your perfect off-grid sanctuary, power your summer
+                            home
+                            or
+                            help you <br> save on energy expenses in the long run</p>
+                        <button type="button" class="btn-transp-white-border">GO SOLAR</button>
+                    </div>
+                </div>
         </div>
-    </section>
+        <!–-----– SECOND SECTION - WHY?------->
 
-    <!–-----– SECOND SECTION - WHY?------->
+            <section class="clean">
+                <div class="container container-fluid section-2">
+                    <div class="row">
+                        <div class="col col-md-6">
+                            <p class="uppercase stitle stitle-blue">WHY SOLAR?</p>
+                            <h2 class="ltitle ltitle2"> Clean energy.</h2>
+                            <p class="tparagraph tparagraph2"> No greenhouse gas emissions are released into the
+                                atmosphere when you use solar panels to create electricity. And because the sun
+                                provides more energy than we'll ever need you can either reduce or elliminate
+                                electrical bills. </p>
+                            <button type="button" class="btn-blue-border btn-margin-bottom">LEARN MORE</button>
 
-    <section id="clean">
-        <div class="container container-fluid section-2">
-            <div class="row">
-                <div class="col col-md-6">
-                    <p class="uppercase stitle stitle-blue">WHY SOLAR?</p>
-                    <h2 class="ltitle ltitle2"> Clean energy.</h2>
-                    <p class="tparagraph tparagraph2"> No greenhouse gas emissions are released into the atmosphere when you use solar panels to create electricity. And because the sun provides more energy than we'll ever need you can either reduce or elliminate electrical bills. </p>
-                    <button type="button" class="btn-blue-border">LEARN MORE</button>
-
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="col col-md-6 offset-md-6">
-                    <img src="./assets/img/sidepanel.png" class="sidepanel img-responsive"></img>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!–-----– THIRD SECTION - HOW? ------->
-
-    <section id="idea">
-        <div class="idea-title text-center">
-            <p class="uppercase stitle stitle-blue">HOW WE DO IT?</p>
-            <h2 class="ltitle ltitle2"> From idea to finished product</h2>
-            <p class="tparagraph">We offer a full service package</p>
-
-        </div>
-        <div class="container container-fluid ">
-            <div class="row m-auto text-center justify-content-center">
-                <div class=" col-sm-3 col-md-3">
-                    <div class="icon-an"><i class="fas fa-comments fa-2x"></i></div>
-                    <p class="uppercase stitle stitle-blue stitlen">PLANING</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <div class="icon-an"><i class="fas fa-tools fa-2x"></i></div>
-                    <p class="uppercase stitle stitle-blue stitlen">INSTALLATION</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <div class="icon-an"><i class="fas fa-sun fa-2x"></i></div>
-                    <p class="uppercase stitle stitle-blue stitlen">MAINTENANCE</p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!–-----– FOURTH SECTION - WHERE ------->
-
-    <section id="where">
-        <div class=" text-center">
-            <p class="uppercase stitle stitle-blue">WHERE DO WE DO IT?</p>
-            <h2 class="ltitle wheretitle">We will help you bring your project to life in these locations</h2>
-
-
-        </div>
-        <div class="container container-fluid ">
-            <div class="row m-auto text-center justify-content-center">
-                <div class=" col-sm-12  col-md-4">
-                    <img class="whereimg" src="./assets/img/portable.png"></img>
-                    <p class="uppercase stitle stitlen">PORTABLE</p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <img class="whereimg" src="./assets/img/residential.png"></img>
-                    <p class="uppercase stitle stitlen">RESIDENTIAL</p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <img class="whereimg" src="./assets/img/large.png"></img>
-                    <p class="uppercase stitle stitlen">LARGE SCALE</p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col text-center">
-                    <button  href="#" type="button" class="btn-blue-border ">CALCULATE PRICE</button>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-
-    <!–-----– FOOTER ------->
-
-    <section class="home-newsletter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="single">
-                        <h2>Subscribe to our Newsletter</h2>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <span class="input-group-btn">
-         <button class="btn btn-theme" type="submit">Subscribe</button>
-         </span>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section class="footer text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <ul class="list-unstyled">
-                        <li  class="footer-item"><a href="index.html">Home</a></li>
-                        <li  class="footer-item"><a href="#">About</a></li>
-                        <li  class="footer-item"><a href="#">Pricing</a></li>
-                        <li  class="footer-item"><a href="#">Contact</a></li>
+            <!–-----– THIRD SECTION - HOW? ------->
 
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="list-unstyled">
-                    <li class="footer-item">Social</li>
-                    <li class="footer-item social-icon" ><a href="#"><i class="fab fa-instagram "></i></a> </li>
-                    <li class="footer-item social-icon"><a href="#"><i class="fab fa-pinterest-p "></i></a> </li>
-                    <li class="footer-item social-icon" ><a href="#"><i class="fab fa-twitter"></i> </a></li>
-                    <li class="footer-item social-icon"><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="footer-copyright">
-                        <p>© FOR A BETTER FUTURE</p>
+                <section id="idea" class="idea">
+                    <div class="idea-title text-center">
+                        <p class="uppercase stitle stitle-blue">HOW WE DO IT?</p>
+                        <h2 class="ltitle ltitle2"> From idea to finished product</h2>
+                        <p class="tparagraph">We offer a full service package</p>
+
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div class="container container-fluid ">
+                        <div class="row m-auto text-center justify-content-center">
+                            <div class=" col-sm-3 col-md-3">
+                                <div class="icon-an"><i class="fas fa-comments fa-2x"></i></div>
+                                <p class="uppercase stitle stitle-blue stitlen">PLANING</p>
+                            </div>
+                            <div class="col-sm-3 col-md-3">
+                                <div class="icon-an"><i class="fas fa-tools fa-2x"></i></div>
+                                <p class="uppercase stitle stitle-blue stitlen">INSTALLATION</p>
+                            </div>
+                            <div class="col-sm-3 col-md-3">
+                                <div class="icon-an"><i class="fas fa-sun fa-2x"></i></div>
+                                <p class="uppercase stitle stitle-blue stitlen">MAINTENANCE</p>
+                            </div>
+                        </div>
 
- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/7e530e9396.js"></script>
-  
-   
+                    </div>
+
+                </section>
+
+                <!–-----– FOURTH SECTION - WHERE ------->
+
+                    <section id="where">
+                        <div class=" text-center">
+                            <p class="uppercase stitle stitle-blue">WHERE DO WE DO IT?</p>
+                            <h2 class="ltitle wheretitle">We will help you bring your project to life in these
+                                locations</h2>
+
+
+                        </div>
+                        <div class="container container-fluid ">
+                            <div class="row m-auto text-center justify-content-center">
+                                <div class=" col-sm-12  col-md-4">
+                                    <img class="whereimg" src="./assets/img/portable.png"></img>
+                                    <p class="uppercase stitle stitlen">PORTABLE</p>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <img class="whereimg" src="./assets/img/residential.png"></img>
+                                    <p class="uppercase stitle stitlen">RESIDENTIAL</p>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <img class="whereimg" src="./assets/img/large.png"></img>
+                                    <p class="uppercase stitle stitlen">LARGE SCALE</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <button href="#" type="button" class="btn-blue-border btn-margin-bottom">CALCULATE
+                                        PRICE</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                    <!–-----– FOOTER ------->
+
+                        <section class="home-newsletter">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="single">
+                                            <h2>Subscribe to our Newsletter</h2>
+                                            <form class="input-group">
+                                                <input type="email" class="form-control" placeholder="Enter your email">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-theme" type="submit">Subscribe</button>
+                                                </span>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="footer text-center">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <ul class="list-unstyled">
+                                            <li class="footer-item"><a href="index.html">Home</a></li>
+                                            <li class="footer-item"><a href="#">About</a></li>
+                                            <li class="footer-item"><a href="#">Pricing</a></li>
+                                            <li class="footer-item"><a href="#">Contact</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul class="list-unstyled">
+                                            <li class="footer-item">Social</li>
+                                            <li class="footer-item social-icon"><a href="#"><i
+                                                        class="fab fa-instagram "></i></a> </li>
+                                            <li class="footer-item social-icon"><a href="#"><i
+                                                        class="fab fa-pinterest-p "></i></a> </li>
+                                            <li class="footer-item social-icon"><a href="#"><i
+                                                        class="fab fa-twitter"></i>
+                                                </a></li>
+                                            <li class="footer-item social-icon"><a href="#"><i
+                                                        class="fab fa-facebook-f"></i> </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="footer-copyright">
+                                            <p>© FOR A BETTER FUTURE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                            crossorigin="anonymous"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                            crossorigin="anonymous"></script>
+                        <script src="https://kit.fontawesome.com/7e530e9396.js"></script>
+
+
 </body>
+
 </html>
