@@ -313,6 +313,30 @@ a:active {
     padding-right: 20%;
 }
 
-.background-white-transp {
-    background-color: rgba(255, 255, 255, 0.5);
+@media (max-width:768px) {
+    .contact-form {
+        padding-left: 5%;
+        padding-right: 5%;
+    }  
 }
+.form-back {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'RoundoRegular';
+ }
+ 
+ :-moz-placeholder { 
+    font-family: 'RoundoRegular';
+ }
+ 
+ ::-moz-placeholder { 
+    font-family: 'RoundoRegular';
+ }
+ 
+ :-ms-input-placeholder {
+    font-family: 'RoundoRegular';
+ }
