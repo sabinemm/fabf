@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 /*-------------------Navbar------------------*/
 
 .navbar {
@@ -198,7 +198,6 @@ html {
     padding-bottom: 30px;
 }
 
-
 #where {
     padding-bottom: 30px;
 }
@@ -248,7 +247,6 @@ html {
     color: #fff;
 }
 
-
 /*-------------------FOOTER SOCIAL------------------*/
 
 .footer-item {
@@ -276,8 +274,6 @@ li {
     padding-bottom: 20px;
 }
 
-
-
 a:link {
     color: white;
     -webkit-transition: all 0.3s ease-in-out;
@@ -298,4 +294,25 @@ a:hover {
 a:active {
     color: rgb(112, 192, 214);
     text-decoration: none !important;
+}
+
+/*-------------------CONTACT------------------*/
+
+.parallax-wrap-contact {
+    position: relative;
+    background: url(./assets/img/contactbackground.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.contact-form {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.background-white-transp {
+    background-color: rgba(255, 255, 255, 0.5);
 }
