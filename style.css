@@ -340,3 +340,16 @@ a:active {
  :-ms-input-placeholder {
     font-family: 'RoundoRegular';
  }
+
+
+/*-------------------ABOUT------------------*/
+
+.parallax-about {
+    position: relative;
+    background: url(./assets/img/about.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
