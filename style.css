@@ -363,3 +363,20 @@ iframe {
     padding-top: 100px;
     padding-bottom: 20px;
 }
+
+
+/*-------------------PRICING------------------*/
+
+.pricing {
+    width: 80%;
+}
+
+.pricing-parallax {
+    position: relative;
+    background: url(./assets/img/pricing.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
