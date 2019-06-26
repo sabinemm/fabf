@@ -353,3 +353,13 @@ a:active {
     background-size: cover;
     padding-top: 30px;
 }
+
+iframe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ltitle-about {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
