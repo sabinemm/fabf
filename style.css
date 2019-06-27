@@ -253,6 +253,9 @@ html {
     display: inline-block;
 }
 
+.footer-item a {
+    color:white;
+}
 ul {
     list-style-type: none;
 }
@@ -280,10 +283,6 @@ a:link {
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
-
-a:visited {
-    color: grey;
 }
 
 a:hover {
