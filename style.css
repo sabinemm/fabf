@@ -152,7 +152,7 @@
     color: gray;
 }
 
-.clean a {
+.btn-blue-border a:link {
     color: black;
 }
 
