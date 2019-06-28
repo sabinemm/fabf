@@ -18,7 +18,7 @@
 <body>
 
     <!–-----– NAVBAR ------->
-        <div class="parallax-wrap">
+        <div class="parallax-wrap" id="nav">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="index.html"><img src="./assets/img/logopng.png" height="50px" alt="logo"
                         class="logo"></a>
@@ -32,9 +32,6 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link " href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#idea">Concept</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="pricing.html">Pricing</a>
@@ -199,6 +196,9 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="totop">
+                                    <a href="#nav">Back to top <i class="fas fa-angle-up"></i></a>
+                                </div>
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="footer-copyright">
@@ -220,6 +220,22 @@
                             crossorigin="anonymous"></script>
                         <script src="https://kit.fontawesome.com/7e530e9396.js"></script>
 
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                        <script>
+                            $(document).ready(function () {
+                                $("a").on('click', function (event) {
+                                    if (this.hash !== "") {
+                                        event.preventDefault();
+                                        var hash = this.hash;
+                                        $('html, body').animate({
+                                            scrollTop: $(hash).offset().top
+                                        }, 800, function () {
+                                            window.location.hash = hash;
+                                        });
+                                    }
+                                });
+                            });
+                        </script>
 
 </body>
 
