@@ -67,6 +67,10 @@
     padding-right: 25px;
 }
 
+.btn-blue-border a:link {
+    -webkit-color: black;
+}
+
 .btn-margin-bottom {
     margin-bottom: 100px;
 }
