@@ -35,10 +35,6 @@
     padding-right: 25px;
 }
 
-.btn-blue-border a {
-    color: black;
-}
-
 .btn-transp-white-border:hover {
     background-color: rgba(255, 255, 255, 0.5);
     padding-left: 25px;
@@ -154,6 +150,10 @@
 
 .tparagraph2 {
     color: gray;
+}
+
+.clean a {
+    color: black;
 }
 
 /*-------------------SECTION 3 PAGE 1 HOW------------------*/
