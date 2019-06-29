@@ -8,7 +8,7 @@ I have created this page for a potential solar panel company. It showcases a bit
 
 ## UX
 
-My goal was to create a minimalistic and clean website to showcase the information and contact details. The sky blue color theme was chosen to make it feel airy and better showcase the images of the solar panels and the dark footer to symbolize the Earth.
+My goal was to create a minimalistic and clean website to showcase the information and contact details. The sky blue color theme was chosen to make it feel airy and better showcase the background images of the solar panels and the dark footer to symbolize the Earth.
 
 For potential customers, I wanted to provide a brief overview of the company and their beliefs when it comes to solar power. I wanted to provide minimal information so that potential customer would need to provide their email adress to receive more detailed information. The pricing and contact forms are easily acessible as well as an adress, phone number and a map to their office.
 
@@ -17,10 +17,11 @@ For potential customers, I wanted to provide a brief overview of the company and
 1.  HTML
 2.  CSS
 3.  Bootstrap (4.3.1)
+4.  JQuery
 
 ## Features
 
-The index.html page features a smooth scroll option using JQuery taken from [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_smooth_scroll_jquery).
+The website has four pages: Main page called Index.html, About page, Pricing and Contact page. The index.html page features a smooth scroll option using JQuery for a back to top button. 
 
 ### Features Left to Implement
 
