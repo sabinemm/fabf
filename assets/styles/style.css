@@ -1,3 +1,5 @@
+@import url('https://fontlibrary.org/face/roundo');
+
 /*-------------------Navbar------------------*/
 
 .navbar {
@@ -43,9 +45,7 @@
 
 
 .btn-blue-border,
-
 .btn-blue-border:visited,
-
 .btn-blue-border:focus {
     background-color: rgba(0, 0, 0, 0);
     border: solid 3px rgb(112, 192, 214);
@@ -82,7 +82,7 @@
 
 .parallax-wrap{
     position: relative;
-    background: url(./assets/img/1page1section.jpg);
+    background: url("assets/img/1page1section.jpg");
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@
 
 .clean {
     padding-left: 0;
-    background-image: url(./assets/img/sidepanel.png);
+    background-image: url("assets/img/sidepanel.png");
     background-position: right bottom;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -382,7 +382,7 @@ iframe {
 
 .pricing-parallax {
     position: relative;
-    background: url(./assets/img/pricing.jpg);
+    background: url(assets/img/pricing.jpg);
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;

@@ -16,8 +16,9 @@ For potential customers, I wanted to provide a brief overview of the company and
 
 1.  HTML
 2.  CSS
-3.  Bootstrap (4.3.1)
+3.  Bootstrap
 4.  JQuery
+5.  JavaScript
 
 ## Features
 
