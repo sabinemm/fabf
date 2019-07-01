@@ -43,9 +43,9 @@
 
 
 .btn-blue-border,
-.btn-blue-border:active,
+
 .btn-blue-border:visited,
-.btn-blue-border:active:focus,
+
 .btn-blue-border:focus {
     background-color: rgba(0, 0, 0, 0);
     border: solid 3px rgb(112, 192, 214);
@@ -73,6 +73,10 @@
 
 .btn-margin-bottom {
     margin-bottom: 100px;
+}
+
+.btn-white-border a:link {
+    color:#000000;
 }
 /*-------------------SECTION 1 PAGE 1------------------*/
 
@@ -154,10 +158,6 @@
 
 .tparagraph2 {
     color: #808080;
-}
-
-.btn-blue-border a:link {
-    color:#000000;
 }
 
 /*-------------------SECTION 3 PAGE 1 HOW------------------*/
@@ -279,8 +279,11 @@ li {
     padding-bottom: 20px;
 }
 
-a:link {
+li a:link {
     color: #fff;
+}
+
+a:link {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -299,6 +302,7 @@ a:active {
 
 .totop a {
 color: #CDCDCD;
+font-size: 30px;
 }
 
 /*-------------------CONTACT------------------*/
