@@ -28,6 +28,11 @@ The website has four pages: Main page called Index.html, About page, Pricing and
 
 In future I would like to make the forms functional. I would also add more detailed explanations for how the solar energy works and how it is implemented.
 
+## Mockups
+
+I created the mockups in Photoshop. During development process I made some design changes, chose different icons and backgrounds. I also reduced the amout of pages, to keep the site cleaner. 
+You can see the mockup for [Index page](https://i.imgur.com/a9KczB5.jpg), [About page](https://i.imgur.com/S2QfeQ9.jpg), [Contact](https://i.imgur.com/6AtEinV.jpg) and [Pricing page](https://i.imgur.com/9r5nAka.jpg)
+
 ## Testing
 
 The site was tested on several browsers (Chrome, Safari) both on Mac OS and Windows. On mobile it has been tested with Safari and Chrome with Iphone X and OnePlus 5T. During testing on mobile, I changed the column widths with Boostrap for "Where do we do it?" section. 
