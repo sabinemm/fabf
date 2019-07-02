@@ -36,7 +36,7 @@ Social media links can be accessed by clicking on Font Awesome icons in the foot
 
 The forms cannot be submitted without a valid email adress. 
 
-By clicking on the Back to top element it will take you to the top of the page using JQuery smooth scroll script.
+By clicking on the arrow ^ at the bottom of the page it will take you to the top of the page using JQuery smooth scroll script.
 
 ## Deployment
 
@@ -50,7 +50,7 @@ All content in the for all pages was written by me but by seeking inspiration fo
 
 ### Media
 
-Some photos were taken from  [Pexels](https://www.pexels.com/), and some were taken from Google Images with free use with modification licence. Images were altered using Photoshop to maintain the same theme. 
+Some photos were taken from  [Pexels](https://www.pexels.com/), and some were taken from Google Images with free use with modification licence. Images were altered using Photoshop to maintain the same theme. Logo created in Photoshop.
 
 ### Acknowledgements
 
