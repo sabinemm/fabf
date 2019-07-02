@@ -22,15 +22,17 @@ For potential customers, I wanted to provide a brief overview of the company and
 
 ## Features
 
-The website has four pages: Main page called Index.html, About page, Pricing and Contact page. The index.html page features a smooth scroll option using JQuery for a back to top button. 
+The website has four pages: Main page called Index, About page, Pricing and Contact page. 
+By clicking on the arrow ^ from Font Awesome at the bottom of Index.html page it will take you to the top of the page using JQuery smooth scroll script.
+The Contact page features a map for the office from Google Maps
 
 ### Features Left to Implement
 
-In future I would like to make the forms functional. I would also add more detailed explanations for how the solar energy works and how it is implemented.
+In future I would like to make the forms functional. I would also add more detailed explanations for how the solar energy works and how it is implemented in a separate page.
 
 ## Mockups
 
-I created the mockups in Photoshop. During development process I made some design changes, chose different icons and backgrounds. I also reduced the amout of pages, to keep the site cleaner. 
+I created the mockups in Photoshop. During development process I made some design changes, chose different icons and backgrounds. I also reduced the amout of navigation links, to keep the site cleaner. 
 You can see the mockup for [Index page](https://i.imgur.com/a9KczB5.jpg), [About page](https://i.imgur.com/S2QfeQ9.jpg), [Contact](https://i.imgur.com/6AtEinV.jpg) and [Pricing page](https://i.imgur.com/9r5nAka.jpg)
 
 ## Testing
@@ -41,9 +43,11 @@ Social media links can be accessed by clicking on Font Awesome icons in the foot
 
 The forms cannot be submitted without a valid email adress. 
 
-By clicking on the arrow ^ at the bottom of the page it will take you to the top of the page using JQuery smooth scroll script.
+Code was checked using HTML and CSS [validator](https://validator.w3.org)
 
 ## Deployment
+
+The site was made using AWS Cloud9 and in the middle of development process I switched to Visual Studio Code.
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named  `index.html`.
 
