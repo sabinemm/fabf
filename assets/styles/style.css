@@ -82,7 +82,7 @@
 
 .parallax-wrap{
     position: relative;
-    background: url("assets/img/1page1section.jpg");
+    background-image: url("..//img/1page1section.jpg");
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@
 
 .clean {
     padding-left: 0;
-    background-image: url("assets/img/sidepanel.png");
+    background: url("..//img/sidepanel.png");
     background-position: right bottom;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -309,7 +309,7 @@ font-size: 30px;
 
 .parallax-wrap-contact {
     position: relative;
-    background: url(./assets/img/contactbackground.jpg);
+    background: url(..//img/contactbackground.jpg);
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -355,7 +355,7 @@ font-size: 30px;
 
 .parallax-about {
     position: relative;
-    background: url(./assets/img/about.jpg);
+    background: url(..//img//about.jpg);
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -382,7 +382,7 @@ iframe {
 
 .pricing-parallax {
     position: relative;
-    background: url(assets/img/pricing.jpg);
+    background: url(..//img/pricing.jpg);
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
