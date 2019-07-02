@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/source-sans-pro" type="text/css" />
@@ -20,7 +20,7 @@
         <div class="parallax-wrap" id="nav">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="index.html"><img src="./assets/img/logopng.png" height="50px" alt="logo"
-                        class="logo"></a>
+                        class="logo" aria-label="Home button / For a better future logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -87,15 +87,16 @@
                     <div class="container container-fluid ">
                         <div class="row m-auto text-center justify-content-center">
                             <div class=" col-sm-3 col-md-3">
-                                <div class="icon-an"><i class="fas fa-comments fa-2x"></i></div>
+                                <div class="icon-an"><i class="fas fa-comments fa-2x" aria-label="comment icon"></i>
+                                </div>
                                 <p class="uppercase stitle stitle-blue stitlen">PLANING</p>
                             </div>
                             <div class="col-sm-3 col-md-3">
-                                <div class="icon-an"><i class="fas fa-tools fa-2x"></i></div>
+                                <div class="icon-an"><i class="fas fa-tools fa-2x" aria-label="tool icon"></i></div>
                                 <p class="uppercase stitle stitle-blue stitlen">INSTALLATION</p>
                             </div>
                             <div class="col-sm-3 col-md-3">
-                                <div class="icon-an"><i class="fas fa-sun fa-2x"></i></div>
+                                <div class="icon-an"><i class="fas fa-sun fa-2x" aria-label="sun icon"></i></div>
                                 <p class="uppercase stitle stitle-blue stitlen">MAINTENANCE</p>
                             </div>
                         </div>
@@ -153,10 +154,11 @@
                                         <div class="single">
                                             <h2>Subscribe to our Newsletter</h2>
                                             <form class="input-group">
-                                                <input type="email" required class="form-control"
-                                                    placeholder="Enter your email">
+                                                <input type="email" class="form-control" placeholder="Enter your email"
+                                                    aria-label="Enter your email">
                                                 <span class="input-group-btn">
-                                                    <button class="btn btn-theme" type="submit">Subscribe</button>
+                                                    <button class="btn btn-theme" type="submit"
+                                                        aria-label="Subscribe">Subscribe</button>
                                                 </span>
                                             </form>
                                         </div>
@@ -170,33 +172,38 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="list-unstyled">
-                                            <li class="footer-item"><a href="index.html">Home</a></li>
-                                            <li class="footer-item"><a href="about.html">About</a></li>
-                                            <li class="footer-item"><a href="pricing.html">Pricing</a></li>
-                                            <li class="footer-item"><a href="contact.html">Contact</a></li>
-
+                                            <li class="footer-item"><a href="index.html" aria-label="Home">Home</a></li>
+                                            <li class="footer-item"><a href="about.html" aria-label="About">About</a>
+                                            </li>
+                                            <li class="footer-item"><a href="pricing.html"
+                                                    aria-label="Pricing">Pricing</a></li>
+                                            <li class="footer-item"><a href="contact.html"
+                                                    aria-label="Contact">Contact</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-6">
                                         <ul class="list-unstyled">
-                                            <li class="footer-item">Social</li>
+                                            <li class="footer-item" aria-label="Social">Social</li>
                                             <li class="footer-item social-icon"><a href="https://www.instagram.com"
-                                                    target="_blank"><i class="fab fa-instagram "></i></a>
+                                                    target="_blank" aria-label="Instagram"><i
+                                                        class="fab fa-instagram "></i></a>
                                             </li>
                                             <li class="footer-item social-icon"><a href="https://www.pinterest.com"
-                                                    target="_blank"><i class="fab fa-pinterest-p "></i></a>
+                                                    target="_blank" aria-label="Pinterest"><i
+                                                        class="fab fa-pinterest-p "></i></a>
                                             </li>
                                             <li class="footer-item social-icon"><a href="https://twitter.com"
-                                                    target="_blank"><i class="fab fa-twitter"></i>
+                                                    target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i>
                                                 </a></li>
                                             <li class="footer-item social-icon"><a href="https://www.facebook.com"
-                                                    target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                                                    target="_blank" aria-label="Facebook"><i
+                                                        class="fab fa-facebook-f"></i> </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="totop">
-                                    <a href="#nav"><i class="fas fa-angle-up"></i></a>
+                                    <a href="#nav" aria-label="Back to top"><i class="fas fa-angle-up"></i></a>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-12">
@@ -218,10 +225,7 @@
                             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                             crossorigin="anonymous"></script>
                         <script src="https://kit.fontawesome.com/7e530e9396.js"></script>
-
-                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                        <script src="scripts/index.js">
-                        </script>
+                        <script src="scripts/index.js"></script>
 
 </body>
 
